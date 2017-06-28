@@ -10,16 +10,18 @@ namespace DataLayer.Entities
     using System.Collections.Generic;
     public class User
     {
-        public int UserId { get; set;}
-        public string Email { get; set; }
-        public string Firstname { get; set; }
-        public string Lastname { get; set; }
-        public string Password { get; set; }
-        public string About { get; set; }
-        public string Description { get; set; }
-        public string PictureUrl { get; set; }
-        public string Gender { get; set; }
-        public int Age { get; set; }
+        public virtual int UserId { get; set;}
+        public virtual string Email { get; set; }
+        public virtual string Firstname { get; set; }
+        public virtual string Lastname { get; set; }
+        public virtual string Password { get; set; }
+        public virtual string About { get; set; }
+        public virtual string Description { get; set; }
+        public virtual string PictureUrl { get; set; }
+        public virtual string Gender { get; set; }
+        public virtual string PersonNummer { get; set; }
+
+        public virtual bool Visible { get; set; }
 
     }
 }
