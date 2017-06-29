@@ -23,5 +23,10 @@ namespace DataLayer.Entities
 
         public virtual bool Visible { get; set; }
 
+        public virtual ICollection<Post> PostsRecieved { get; set; }
+        public virtual ICollection<Post> PostsSent { get; set; }
+        public virtual ICollection<Friend> RequestsRecieved { get; set; }
+        public virtual ICollection<Friend> RequestsSent { get; set; }
+             
     }
 }
