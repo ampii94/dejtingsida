@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dejt", "Dejt\Dejt.csproj", "{AFB59A3E-6D18-4549-B408-E37EBAD22785}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{D6DEE37D-9F97-469D-BFD7-E246D45B8CFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication2", "WebApplication2\WebApplication2.csproj", "{8B97517C-23ED-44AE-ACAD-541826296610}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AFB59A3E-6D18-4549-B408-E37EBAD22785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AFB59A3E-6D18-4549-B408-E37EBAD22785}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AFB59A3E-6D18-4549-B408-E37EBAD22785}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AFB59A3E-6D18-4549-B408-E37EBAD22785}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D6DEE37D-9F97-469D-BFD7-E246D45B8CFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D6DEE37D-9F97-469D-BFD7-E246D45B8CFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6DEE37D-9F97-469D-BFD7-E246D45B8CFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6DEE37D-9F97-469D-BFD7-E246D45B8CFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B97517C-23ED-44AE-ACAD-541826296610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B97517C-23ED-44AE-ACAD-541826296610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B97517C-23ED-44AE-ACAD-541826296610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B97517C-23ED-44AE-ACAD-541826296610}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
