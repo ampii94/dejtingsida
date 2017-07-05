@@ -25,6 +25,10 @@ namespace WebApplication2.Models
         [Required]
         [RegularExpression(@".{10,}", ErrorMessage = "Your description needs to be atleast 10 characters long.")]
         public string About { get; set; }
+
+        [Display(Name = "Visible")]
+        [Required]
+        public bool Visible { get; set; }
         
         
 

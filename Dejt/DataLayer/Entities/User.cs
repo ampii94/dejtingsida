@@ -18,7 +18,7 @@ namespace DataLayer.Entities
         public virtual string About { get; set; }
         public virtual string PictureUrl { get; set; }
         public virtual string Gender { get; set; }
-        public DateTime PersonNummer { get; set; }
+        public DateTime DateOfBirth { get; set; }
 
         public virtual bool Visible { get; set; }
 
